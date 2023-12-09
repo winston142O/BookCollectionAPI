@@ -1,0 +1,8 @@
+version: '3.12'
+
+services:
+  django:
+    image: bookcollectionapi:1.0.0
+    build: .
+    ports:
+      - "8000:8000"    
